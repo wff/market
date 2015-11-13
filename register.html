@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta property="qc:admins" content="241045133560547672165721747716" />
+<title>注册预约抢红包</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10" />
+<link type="text/css" rel="stylesheet" href="css/wapcommon.css"/>
+<link type="text/css" rel="stylesheet" href="css/wapstyle.css"/>
+</head>
+
+<body>
+
+ <div class="pop_s pop_show" style="display:block"><span>手机号码格式不正确</span></div>
+
+<div><img src="images/register.png" alt="" width="100%"></div>
+<article class="wap_main page129">
+      <div class="main_input border_tb mt_15 clearfix">
+        <div class="margin_lr fs_16">
+            <strong class="hl fc_6"><img src="images/input-icon01.png" class="phoneimg"></strong>
+            <div class="input_box">
+           	    <input id="mobile" name="mobile" type="tel" placeholder="请输入手机号" maxlength="11"/>
+		  </div>
+        </div>
+    </div>
+     <div class="clearfix border_tb mt_10 main_input">
+        <div class="margin_lr fs_16">
+            <strong class="hl fc_6"><img src="images/input-icon02.png" class="phoneimg"></strong>
+            <div class="input_box">
+                <input name="imgcode" id="imgcode" maxlength="4"  type="tel" placeholder="图形验证码" />
+                <em class="po_r"><img src="http://m.niwodai.com:80/validatecode/refresh.htm?date=new Date()" width="80" height="36" name="imgc" id="imgc" alt="换一张" ></em>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix border_tb mt_10 main_input">
+        <div class="margin_lr fs_16">
+            <strong class="hl fc_6"><img src="images/input-icon02.png" class="phoneimg"></strong>
+            <div class="input_box">
+                <input type="tel" name="verify" id="fucode" onFocus="keyupSendMsg();" maxlength="6" placeholder="短信验证码" />
+                <a href="javascript:;" class="fc_blue po_r border_l" id="dtmbtn" name="dtmbtn" onClick="putyzm()">获取验证码</a>
+            </div>
+        </div>
+    </div>
+    <p class=" plr_15 line_h22 fs_14 fc_9 mt_5 tc"><span>注册成功后登录密码默认为手机号码的后6位</span></p>
+    <div class="margin_lr mt_15">
+        <input type="button" value="确认预约" class="btn btn_orange w_10 mt_10"/>
+    </div>
+    <div class="margin_lr mt_5">
+        <input type="button" value="已有账号？登录预约" class="btn btn_blue w_10 mt_10" />
+  </div>
+    
+ </article>
+<script src="../js/jquery-1.9.1.js" type="text/javascript"></script>
+</body>
+</html>
