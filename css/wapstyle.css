@@ -8,7 +8,7 @@
 .rec-btn{ position:absolute; left:10%; bottom:14%; background:#f14949; color:#fee81f; border:5px solid #c6343b;border-top:0px;}
 .rec-big{ position:relative;}
 .market-intro{ margin:20px; background:#fff8ce; border-radius:10px;color:#724614; padding:15px; line-height:22px; font-size:16px;}
-.market-intro h2{ text-align:center; background:#ffca00; font-size:20px;  margin:0 auto; border-radius:10px; line-height:50px; margin-bottom:10px;}
+.market-intro h2{ text-align:center; background:#ffca00; font-size:20px;  margin:0 auto; border-radius:10px; line-height:50px; margin-bottom:10px; font-weight:bold;}
 .market-intro p{ padding:5px 0;}
 .phoneimg{ width:25px; position:absolute; margin:10px 0 0 0;}
 .m-close{ width:42px; height:42px; position:absolute; right:22%; top:-15px;}
