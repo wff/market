@@ -25,5 +25,10 @@
 .rtable{ background:#f84442; padding-bottom:10px;}
 .bg-red{ background:rgba(0,0,0,0.2); border-radius:10px;}
 .name-wrap .main_input .input_box input{padding-left:6rem; }
+
+/*夜间模式样式*/
 .night-big{ background:#3a3e6d;}
 .night-big .dtime span{ background:#202346;}
+.night-big .market-intro{ background:#d1d5f2; color:#5c5d66;}
+.night-big .market-intro h2{ background:#4d56a3; color:#ffd801; }
+
