@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta property="qc:admins" content="241045133560547672165721747716" />
+<title>提现</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10" />
+<link type="text/css" rel="stylesheet" href="css/wapcommon.css"/>
+<link type="text/css" rel="stylesheet" href="css/wapstyle.css"/>
+<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script src="js/common.js" type="text/javascript"></script>
+</head>
+
+<body>
+ <article class="wap_main page92">
+	<article  class="name-wrap">
+		<div class="clearfix bg_white border_tb  mb_10 module_list siz4">
+        	<div class="main_input border_b clearfix">
+            <div class="ml_15  fs_16">
+                <strong class="hl ml_15 fc_6">提现银行</strong>
+                <div class="input_box bank-box" id="selectBank" >
+                <span><img src="images/bank_boc.png" alt="中国银行" />尾号6721</span>
+                </div>
+            </div>
+        </div>
+        
+        <!--假设没有绑定银行卡的话就先去完成绑卡-->
+        <div class="main_input border_b clearfix">
+            <div class="ml_15  fs_16">
+            <i class="arrow-right"></i>
+                <strong class="hl ml_15 fc_6">提现银行</strong>
+                <div class="input_box bank-box" >
+                未绑卡 立即绑定
+                </div>
+            </div>
+        </div>
+        
+        
+			<div class="main_input  clearfix">
+				<div class="fs_16 margin_lr ">
+					<strong class="fl fc_6">可提金额</strong>
+					<strong class="fc_6 pl_20"><em class="fc_orange2">253</em>元</strong>
+				</div>
+			</div>
+		</div>
+        
+        
+        <div class="main_input border_t clearfix">
+		<div class="margin_lr fs_16">
+			<strong class="hl fc_6">提现金额</strong>
+			<div class="input_box">
+				<input type="text" name="amount" value="" id="J_Amount" placeholder="请输入提现金额">
+			</div>
+		</div>
+	</div>
+    <div class="clearfix border_tb main_input">
+        <div class="margin_lr fs_16">
+            <strong class="hl fc_6">验证码</strong>
+            <div class="input_box">
+                <input name="imgcode" id="imgcode" maxlength="4"  type="tel" placeholder="图形验证码" />
+                <em class="po_r"><img src="images/random.jpg" width="80" height="36" name="imgc" id="imgc" alt="换一张" ></em>
+            </div>
+        </div>
+    </div>
+    <div class="main_input border_b clearfix">
+		<div class="margin_lr fs_16">
+			<strong class="hl fc_6">交易密码</strong>
+			<div class="input_box">
+				<input type="password" value="" id="J_Pwd" placeholder="默认与登录密码一致">
+			</div>
+		</div>
+	</div>
+	</article>
+	<div class="margin_lr fs_16 mt_20 pb_20">
+        <input type="submit" value="提 现" class="btn btn_orange w_10" id="J_button">
+    </div>
+        <p class="tc line_h26"><a href="/member/changeLoginOrTradePwd.do?type=forget" class="fc_blue">忘记交易密码？立即找回</a></p>
+
+	</div>
+ </article>
+</body>
+</html>

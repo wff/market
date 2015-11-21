@@ -5,12 +5,13 @@
 .dtime span{ background:#c6343b; border-radius:.8rem; padding:8px 10px; margin:0 5px;}
 .btn-yx{ background:#ffea34; border:5px solid #fbb939; color:#724614; border-top:0px; width:80%; font-weight:bold;height:5.2rem;font-size:2.2rem;}
 .market-intro{ color:#f7e79e;}
-.rec-btn{ position:absolute; left:10%; bottom:14%; background:#f14949; color:#fee81f; border:5px solid #c6343b;border-top:0px;}
+.rec-btn{ background:#f14949; color:#fee81f; border:1px solid #f14949; margin-right:3%;}
 .rec-big{ position:relative;}
+.rec-btn-div{ position:absolute; width:100%; bottom:13%; text-align:center; }
 .market-intro{ margin:20px; background:#fff8ce; border-radius:10px;color:#724614; padding:15px; line-height:22px; font-size:16px;}
-.market-intro h2{ text-align:center; background:#ffca00; font-size:20px;  margin:0 auto; border-radius:10px; line-height:50px; margin-bottom:10px;}
+.market-intro h2{ text-align:center; background:#ffea34; font-size:20px;  margin:0 auto; border-radius:10px; line-height:50px; margin-bottom:10px;}
 .market-intro p{ padding:5px 0;}
-.phoneimg{ width:25px; position:absolute; margin:10px 0 0 0;}
+.phoneimg{ width:25px; position:absolute; margin:15px 0 0 0;}
 .m-close{ width:42px; height:42px; position:absolute; right:22%; top:-15px;}
 .m-close img{ width:100%;}
 .rec-num{ text-align:center; position:absolute; width:100%; margin-top:138px; color:#e41233; font-size:18px; text-shadow:1px 1px 1px #fff;}
@@ -24,4 +25,51 @@
 .rlist h2{text-align:center; background:rgba(0,0,0,0.2); font-size:18px;  margin:0 auto; border-radius:5px; line-height:45px; margin-bottom:10px; color:#f4e430;}
 .rtable{ background:#f84442; padding-bottom:10px;}
 .bg-red{ background:rgba(0,0,0,0.2); border-radius:10px;}
-.name-wrap .main_input .input_box input{padding-left:6rem; }
+.name-wrap .main_input .input_box input{padding-left:9rem; }
+.cardlist a{ display:block; border-bottom:1px solid #e6e6e6; padding:5px 10px; position:relative;}
+.cardlist a img{ width:42px; margin-right:10px;}
+.pop_bank{ width:100%;left:0;top:10%;background-color:#fff;z-index:1001; display:none;}
+.arrow-right{ position:absolute; right:20px; margin-top:20px;}
+.name-wrap .main_input .hl{width: 10rem;}
+.bank-box{padding-left:9rem; box-sizing:border-box;
+-moz-box-sizing:border-box; 
+-webkit-box-sizing:border-box;}
+.bank-box img{ width:32px; margin-right:5px;}
+.grabredbg{ background:url(../images/redpaketbg01.jpg) no-repeat 0% 0%; background-size:100%; background-color:#ef0b29}
+.grabrebtn{width:100%; height:auto; padding:5px 0; background-color:rgba(255,255,255,0.5); position:fixed; left:0px; bottom:0px; text-align:center; z-index:1}
+.grabmask{width:100%; height:100%; background-color:rgba(0,0,0,0.6); position:fixed;z-index:2; top:0px; left:0px; display:none}
+.maskcontain{height:auto;}
+.maskcontain:after,.maskoperate:after{content:""; clear:both; display:block}
+.maskclose{position:absolute; }
+.maskoperate{position:absolute; width:80%; left:10%; height:auto;}
+.maskspan{color:#ed3958; line-height:200%;}
+
+.btn001{width:90%; background-color:#ffb400; height:45px; border-radius:35px; color:#fff; line-height:45px; vertical-align:middle; text-align:center; font-size:16px; margin:0 auto;}
+.btn002{width:90%; background-color:#ff671c; height:45px; border-radius:35px; color:#fff; line-height:45px; vertical-align:middle; text-align:center; font-size:16px; margin:0 auto;}
+
+
+/*夜间模式样式*/
+.night-big{ background:#3a3e6d; padding-bottom:10px;}
+.night-big .dtime span{ background:#202346;}
+.night-big .market-intro{ background:#d1d5f2; color:#5c5d66;}
+.night-big .market-intro h2{ background:#4d56a3; color:#ffd801; }
+.night-big .rec-btn{ background:#f44841; color:#fde644; border:1px solid #f44841;}
+
+
+
+.agentbg{ background:url(../images/redpaketbg03.jpg) repeat-y 50% 0%; background-size:100%}
+.i01{ position:relative;}
+.i02{ position:relative; float:right}
+.i05{ position:relative; float:right}
+.i07{ position:relative; float:right}
+.availheight{height:60px; clear:both}
+.nominate{width:60%; height:50px; background-color:#d22d3e; border-radius:5px; margin:0 auto; text-align:center; line-height:50px; vertical-align:middle; font-size:18px; color:#FFF}
+.maskguide{ width:250px; height:250px; background:url(../images/guide.png) no-repeat 0% 0%; background-size:250px; position:fixed; z-index:30; top:0px; right:15px; display:none;}
+.maskzz{width:100%; height:100%; background-color:rgba(0,0,0,0.8); position:fixed;z-index:2; top:0px; left:0px; display:none}
+
+#pro,#city{ border:1px solid #fff; background:none; font-family:"arial,微软雅黑,sans-serif"; font-size:1.6rem; width:10.5rem; color:#666;}
+.pay_text{ text-align:center; font-size:14pt; padding-top:70px; text-shadow: -1px 0px 1px #fff;}
+
+
+
+

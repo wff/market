@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta property="qc:admins" content="241045133560547672165721747716" />
+<title>实名认证</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10" />
+<link type="text/css" rel="stylesheet" href="css/wapcommon.css"/>
+<link type="text/css" rel="stylesheet" href="css/wapstyle.css"/>
+<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script src="js/common.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(function(){
+		$("#selectBank").click(function(){
+			$(".pop_bank").show();
+			$("#name-bigpost").hide();
+			})
+			$(".cardlist a").click(function(){
+			$(".pop_bank").hide();	
+			$("#name-bigpost").show();
+			$("#selectBank").html($(this).html());
+			})	
+		 $.initProv("#pro", "#city", "省", "市");
+		})
+</script>
+
+</head>
+
+<body>
+<!--选择银行-->
+<div class="pop_bank">
+    	<div class="cardlist">
+           <a href="javascript:void(0)" title="中国银行"><i class="arrow-right"></i><span><img src="images/bank_boc.png" alt="中国银行" />中国银行</span></a>
+           <a href="javascript:void(0)" title="中国农业银行"><i class="arrow-right"></i><img src="images/bank_abc.png" alt="中国农业银行" />中国农业银行</a>
+           <a href="javascript:void(0)" title="中国工商银行"><i class="arrow-right"></i><img src="images/bank_icbc.png" alt="中国工商银行" />中国工商银行</a>
+           <a href="javascript:void(0)" title="中国建设银行"><i class="arrow-right"></i><img src="images/bank_ccb.png" alt="中国建设银行" />中国建设银行</a>
+           <a href="javascript:void(0)" title="交通银行"><i class="arrow-right"></i><img src="images/bank_jtb.png" alt="交通银行" />交通银行</a>
+           <a href="javascript:void(0)" title="招商银行"><i class="arrow-right"></i><img src="images/bank_cmbc.png" alt="招商银行" />招商银行</a>
+           <a href="javascript:void(0)" title="广发银行"><i class="arrow-right"></i><img src="images/bank_icb.png" alt="广发银行" />广发银行</a>
+           <a href="javascript:void(0)" title="平安银行"><i class="arrow-right"></i><img src="images/bank_pab.png" alt="平安银行" />平安银行</a>
+           <a href="javascript:void(0)" title="兴业银行"><i class="arrow-right"></i><img src="images/bank_cib.png" alt="兴业银行" />兴业银行</a>
+           <a href="javascript:void(0)" title="民生银行"><i class="arrow-right"></i><img src="images/bank_msb.png" alt="民生银行" />民生银行</a>
+           <a href="javascript:void(0)" title="华夏银行"><i class="arrow-right"></i><img src="images/bank_hxb.png" alt="华夏银行" />华夏银行</a>
+           <a href="javascript:void(0)" title="上海浦东发展银行"><i class="arrow-right"></i><img src="images/bank_spdb.png" alt="上海浦东发展银行" />上海浦东发展银行</a>
+           <a href="javascript:void(0)" title="中信银行"><i class="arrow-right"></i><img src="images/bank_citic.png" alt="中信银行" />中信银行</a>
+           <a href="javascript:void(0)" title="光大银行"><i class="arrow-right"></i><img src="images/bank_ceb.png" alt="光大银行" />光大银行</a>
+           <a href="javascript:void(0)" title="深圳农村商业银行"><i class="arrow-right"></i><img src="images/bank_szb.png" alt="深圳农村商业银行" />深圳农村商业银行</a>
+           <a href="javascript:void(0)" title="上海银行"><i class="arrow-right"></i><img src="images/bank_sb.png" alt="上海银行" />上海银行</a>
+           <a href="javascript:void(0)" title="邮政储蓄银行"><i class="arrow-right"></i><img src="images/bank_yzb.png" alt="邮政储蓄银行" />邮政储蓄银行</a>
+           <a href="javascript:void(0)" title="厦门银行"><i class="arrow-right"></i><img src="images/bank_xm.png" alt="厦门银行" />厦门银行</a>
+       </div>
+         
+    </div>
+  <!-- 选择省市 -->
+
+ 
+ 
+  
+  
+ <form method="post" id="name-bigpost">
+<article class="wap_main mt_10">
+	<article  class="name-wrap">
+    	<div class="fc_9 pds fs_12">请完成实名认证并绑定你的银行卡</div>
+		<div  class="main_input border_b border_t clearfix">
+            <div class="ml_15 fs_16 ">
+                <strong class="fc_6 ml_15 hl">真实姓名</strong>
+                <div class="input_box"> 
+                    <input type="text" value="" id="J_realName" placeholder="请输入真实姓名">
+                </div>
+            </div>
+        </div>
+        <div  class="main_input border_b clearfix">
+            <div class="ml_15 fs_16">
+                <strong class="hl ml_15 fc_6">证件号码</strong>
+                <div class="input_box">
+                <input type="text" value="" id="J_identityNo" placeholder="请输入身份证号码">
+                </div>
+            </div>
+        </div>
+        
+        <div class="main_input border_b clearfix">
+            <div class="ml_15  fs_16">
+            	<i class="arrow-right"></i>
+                <strong class="hl ml_15 fc_6">选择银行</strong>
+                <div class="input_box bank-box" id="selectBank" >
+                暂未选择
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="main_input border_b clearfix">
+            <div class="ml_15  fs_16">
+                <strong class="hl ml_15 fc_6">银行卡号</strong>
+                <div class="input_box">
+                <input type="tel" id="J_cardNo" name="cardNo" value="" placeholder="请输入银行卡号">
+                </div>
+            </div>
+        </div>
+        
+        <div class="main_input border_b clearfix">
+            <div class="ml_15  fs_16">
+            	<i class="arrow-right"></i>
+                <strong class="hl ml_15 fc_6">开户省市</strong>
+                <div class="input_box bank-box" id="selectProvince" >
+                <select id="pro"></select>
+				<select id="city"></select> 
+
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+    </article>
+    
+    <div class="margin_lr fs_16 mt_20 pb_20">
+        <input type="submit" value="确 认" class="btn btn_orange w_10" id="J_button">
+    </div>
+
+ </article>
+ </form>
+</body>
+</html>
