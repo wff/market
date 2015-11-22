@@ -78,9 +78,13 @@
 
 #pro,#city{ border:1px solid #fff; background:none; font-family:"arial,微软雅黑,sans-serif"; font-size:1.6rem; width:10.5rem; color:#666;}
 .pay_text{ text-align:center; font-size:14pt; padding-top:70px; text-shadow: -1px 0px 1px #fff;}
+.income{ background:#fff; border-bottom:1px solid #e6e6e6; border-bottom:1px solid #e6e6e6; margin-bottom:20px;}
+.income .border_l{ border-left:1px solid #f0f0f0;}
+.income .border_b{ border-bottom:1px solid #f0f0f0;}
+.income .fl,.income .fr{ padding:10px 30px; line-height:25px;}
 .cash_count { background:#ff9523;
 	color: #fff; text-align:center; padding:40px 0;
-	font-size: 18px;
+	font-size: 14px;
 	line-height:50px;
 }
 .count_number {
