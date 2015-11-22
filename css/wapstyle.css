@@ -15,7 +15,7 @@
 .m-close{ width:42px; height:42px; position:absolute; right:22%; top:-15px;}
 .m-close img{ width:100%;}
 .rec-num{ text-align:center; position:absolute; width:100%; bottom:15%; color:#e41233; font-size:18px; text-shadow:1px 1px 1px #fff;}
-.detail-num .rec-num{ top:30%; color:#807756;}
+.detail-num .rec-num{ top:30%; color:#807756; font-size:22px;}
 .rec-num b{ font-size:32px;}
 .t-money{ padding:10px 0;}
 .rlist{ background:#e83d3b;  padding:20px;}
@@ -107,7 +107,7 @@
 .detail-wrap .pro_table{border-top:0; padding:0 15px;}
 .detail-wrap .pro_table li{ color:#fff;border-bottom:1px solid #de4849; line-height:20px;}
 .detail-wrap .pro_table .fr{ color:#ffe54b;}
-.detail-wrap .pro_table .fr .fc_orange{ color:#ffe54b; font-size:22px;}
+.detail-wrap .pro_table .fr .fc_orange{ color:#ffe54b; font-size:22px; padding-right:3px;}
 .fltitle{ color:#fff; font-size:16px; line-height:22px;}
 .fltime{ font-size:12px; color:#ffb797;}
 
