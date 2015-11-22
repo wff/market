@@ -76,7 +76,7 @@ a:active{color:#333; text-decoration:none;}
 .fc_6{color:#666;}
 .fc_9{color:#999;}
 .fc_blue{color:#0697da}/*蓝*/
-.fc_orange{color:#f60;}/*橙色*/
+.fc_orange{color:#ff9523;}/*橙色*/
 .fc_red{color:#ff3b3b}/*红*/
 .fc_green{color:#65d233}/*绿*/
 .fc_lblue{color:#42c6fc}/*亮蓝*/
@@ -97,6 +97,7 @@ a:active{color:#333; text-decoration:none;}
 
 /*margin*/
 .margin_lr{margin-left:1.5rem; margin-right:1.5rem;}
+.margin_lr40{margin-left:4rem; margin-right:4rem;}
 .ml_5{margin-left:.5rem;}
 .ml_10{margin-left:1rem;}
 .ml_15{margin-left:1.5rem;}
@@ -257,7 +258,7 @@ a:active{color:#333; text-decoration:none;}
 /*btn*/
 
 .smallbtn{padding:0 1rem; height:2.8rem; color:#fff; border:none; border-radius:.3rem;}
-.btn{height:4.6rem; font-size:1.8rem; border:none; cursor:pointer; border-radius:.8rem;}
+.btn{height:5rem; font-size:1.8rem; border:none; cursor:pointer; border-radius:.8rem;}
 .btn:active,
 .smallbtn:active{opacity:0.7; filter: alpha(opacity=70); transition:all 0.2S ease-out 0s;}
 a.btn{display:inline-block; vertical-align:middle;height:4.4rem; line-height:4.4rem; text-align:center; font-size:1.8rem; border-radius:.8rem; text-decoration:none;}
