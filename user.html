@@ -21,9 +21,9 @@
     <div class="rule-content">
     	
     	<ul>
-        	<li>1、本次活动中用户所获得的现金红包与推荐奖励，均可即刻提现。10元起提，无手续费，均在5分钟内到帐，节假日顺延至下一个工作日；</li>
+        	<li><i>1</i>本次活动中用户所获得的现金红包与推荐奖励，均可即刻提现。10元起提，无手续费，均在5分钟内到帐，节假日顺延至下一个工作日；</li>
             <li>
-            2、融券红包的使用规则：投资达到一定金额即可激活。
+            <i>2</i>融券红包的使用规则：投资达到一定金额即可激活。
             <p>100元融券红包：累计投资5万</p>
             <p>300元融券红包：累计投资10万</p>
             <p>500元融券红包：累计投资12.5万</p>
@@ -62,8 +62,18 @@
     <div class="margin_lr40 mb_15 tc btn_box">
     	<input type="button" value="我要提现" class="btn btn_orange mr_10 w_10">
     </div>
- 	<div class="fc_orange tc fs_16">提现规则说明</div>
-
+ 	<div class="fc_orange tc fs_16" id="txrule">提现规则说明</div>
+<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(function(){
+		$("#txrule").click(function(){
+			$(".pop_bg").show();
+			})
+			$(".m-close").click(function(){
+				$(".pop_bg").hide();
+				})
+		})
+</script>
     
 </body>
 </html>
