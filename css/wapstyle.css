@@ -93,7 +93,12 @@
 	font-size: 50px;
 	line-height: 50px;
 }
-
+.pop-rule{ width:80%;margin-left:-40%; background:#ffdc32; color:#724614; border-radius:10px;}
+.pop-rule .m-close{ right:-10px;}
+.rule-content{ font-size:15px; line-height:22px; }
+.rule-content ul{ padding:10px 30px 30px 30px;}
+.rule-content ul li{ padding:5px 0;}
+.pop-rule h2{ height:45px; line-height:45px;  text-align:center; font-size:22px; padding-top:20px;}
 
 
 
