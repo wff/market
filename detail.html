@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta property="qc:admins" content="241045133560547672165721747716" />
+<title>红包明细</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10" />
+<link type="text/css" rel="stylesheet" href="css/wapcommon.css"/>
+<link type="text/css" rel="stylesheet" href="css/wapstyle.css"/>
+</head>
+
+<body>
+<div class="pos_rel">
+	<div class="rec-num">共 <b>280</b> 元</div>
+	<img src="images/night-recomd.png" alt="" width="100%">
+</div>
+<div class="cash_count">
+    	<p>红包总额(元)</p>
+    	<p class="count_number">869.00</p>
+    </div>
+
+    <article class="income">
+        <div class="clearfix">
+        	<div class="fl w_5 border_b" onClick="to('/member/fundsAsset.html')">
+            	<h4>可提金额(元)</h4>
+                <p><span class="fs_18">134.00</span></p>
+            </div>
+        	<div class="fr w_5 border_b border_l" onClick="to('/member/fundsAsset.html')">
+            	<h4>推荐奖励(元)</h4>
+                <p><span class="fs_18">134.00</span></p>
+            </div>
+        	<div class="fl w_5" onClick="to('/member/fundsAsset.html')">
+            	<h4>现金红包(元)</h4>
+                <p><span class="fs_18">134.00</span></p>
+            </div>
+            <div class="fr w_5 border_l" onClick="to('/member/fundsLog.html')">
+            	<h4>融券红包(元)</h4>
+                <p><span class="fs_18">98.00</span></p>
+            </div>
+        </div>
+    </article>
+    <div class="margin_lr40 mb_15 tc btn_box">
+    	<input type="button" value="我要提现" class="btn btn_orange mr_10 w_10">
+    </div>
+ 	<div class="fc_orange tc fs_16" id="txrule">提现规则说明</div>
+<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(function(){
+		$("#txrule").click(function(){
+			$(".pop_bg").show();
+			})
+			$(".m-close").click(function(){
+				$(".pop_bg").hide();
+				})
+		})
+</script>
+    
+</body>
+</html>
