@@ -46,7 +46,7 @@
 
 .btn001{width:90%; background-color:#ffb400; height:45px; border-radius:35px; color:#fff; line-height:45px; vertical-align:middle; text-align:center; font-size:16px; margin:0 auto;}
 .btn002{width:90%; background-color:#ff671c; height:45px; border-radius:35px; color:#fff; line-height:45px; vertical-align:middle; text-align:center; font-size:16px; margin:0 auto;}
-
+.btn-yellow{background:#ffea34; border-bottom:5px solid #fbb939; color:#724614; height:5.2rem;font-size:2rem;}
 
 /*夜间模式样式*/
 .night-big{ background:#3a3e6d; padding-bottom:10px;}
@@ -57,11 +57,11 @@
 
 
 .night-modle{ background:#30265a;}
-.night-modle .btn_red{ background:#feaf1e; border:3px solid #cb6c18; border-top:0px; color:#ce5100;} 
 .night-modle .rlist{ background:#30265a;} 
-.night-modle .rtable{ background:#6b5c9f;}
-.night-modle .tr1{ background:#483f74}
-.btn-yellow{background:#ffea34; border-bottom:5px solid #fbb939; color:#724614; height:5.2rem;font-size:2rem;}
+.night-modle .bg-red{ background:#5e5493;}
+.night-modle .rlist h2 span{ background:#342e54;}
+.night-modle .rec-num{ color:#fed559;text-shadow:1px 1px 1px #32285c;}
+
 
 
 
