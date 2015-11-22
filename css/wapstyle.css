@@ -19,8 +19,11 @@
 .t-money{ padding:10px 0;}
 .rlist{ background:#e83d3b;  padding:20px;}
 .rlist table td{ text-align:center; padding:5px 0;}
-.tr1{  font-size:18px; }
-.rlist h2{text-align:center; font-size:22px; font-weight:bold;   line-height:45px;  color:#f4e430;}
+.tr1{  font-size:18px; color:#f4e430; }
+.rlist h2{ border-top:1px solid #f4e430; text-align:center; line-height:45px; height:45px; position:relative; margin:30px 0 10px 0;}
+.rlist h2 span{font-size:20px;width:160px; font-weight:bold; background:#ea3b40; top:-20px; color:#f4e430; position:absolute; display:block; left:50%; margin-left:-80px; border:3px solid #f4e430; border-radius:22px;}
+.rlist h2 i{ display:block; position:absolute; width:12px; height:12px; border-radius:50%; top:-6px; background:#f4e430;}
+.rlist h2 i:first-child{ right:0px;}
 .bg-red{ background:#c4040f; border-radius:10px;}
 .name-wrap .main_input .input_box input{padding-left:9rem; }
 .cardlist a{ display:block; border-bottom:1px solid #e6e6e6; padding:5px 10px; position:relative;}
