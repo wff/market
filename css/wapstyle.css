@@ -104,7 +104,7 @@
 .dcount{ border:2px dashed #f6de88; margin:20px 80px; padding:10px 0; color:#ec3e3f;}
 .dcount b{ font-size:50px;}
 .detail-wrap{ background:#ff5656;}
-.detail-wrap .pro_table{border-top:0; padding:0 15px;}
+.detail-wrap .pro_table{border-top:0; padding:0 30px;}
 .detail-wrap .pro_table li{ color:#fff;border-bottom:1px solid #e94c4c; line-height:20px;}
 .detail-wrap .pro_table .fr{ color:#ffe54b;}
 .detail-wrap .pro_table .fr .fc_orange{ color:#ffe54b; font-size:22px; padding-right:3px;}
