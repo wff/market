@@ -79,9 +79,9 @@
 #pro,#city{ border:1px solid #fff; background:none; font-family:"arial,微软雅黑,sans-serif"; font-size:1.6rem; width:10.5rem; color:#666;}
 .pay_text{ text-align:center; font-size:14pt; padding-top:70px; text-shadow: -1px 0px 1px #fff;}
 .cash_count { background:#ff9523;
-	color: #fff; text-align:center; padding:30px 0;
+	color: #fff; text-align:center; padding:40px 0;
 	font-size: 18px;
-	line-height: 30px;
+	line-height:50px;
 }
 .count_number {
 	font-size: 50px;
