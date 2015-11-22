@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta property="qc:admins" content="241045133560547672165721747716" />
+<title>个人后台</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10" />
+<link type="text/css" rel="stylesheet" href="css/wapcommon.css"/>
+<link type="text/css" rel="stylesheet" href="css/wapstyle.css"/>
+</head>
+
+<body>
+<div class="cash_count">
+    	<p>可提现金额(元)</p>
+    	<p class="count_number">869.00</p>
+    </div>
+
+
+    <article class="bg_white mb_15 pd no1">
+    	<div class="border_b con_top" onclick="to('/member/fundsDetail.html')">
+        	<h4>累计收益(元)</h4>
+            <p class="fc_orange airal bott"><span id="cumulative" class="fs_18 timer" data-to="560" data-speed="1000">--</span></p>
+        </div>
+        <div class="clearfix con_bott" >
+        	<div class="l" onclick="to('/member/fundsAsset.html')">
+            	<h4>净资产(元)</h4>
+
+                <p class="fc_orange airal bott"><span id="pure" class="fs_18">--</span></p>
+
+            </div>
+            <div class="r border_l" onclick="to('/member/fundsLog.html')">
+            	<h4>可用余额(元)</h4>
+
+                <p class="fc_orange airal bott"><span id="available" class="fs_18">--</span></p>
+            </div>
+        </div>
+    </article>
+    <div class="margin_lr mb_15 tc btn_box">
+    	<input type="button" value="我要提现" class="btn btn_orange mr_10 w_40">
+        <input type="button" value="提现记录" class="btn btn_blue w_40">
+    </div>
+ 
+
+    
+</body>
+</html>

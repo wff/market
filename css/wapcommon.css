@@ -262,7 +262,7 @@ a:active{color:#333; text-decoration:none;}
 .smallbtn:active{opacity:0.7; filter: alpha(opacity=70); transition:all 0.2S ease-out 0s;}
 a.btn{display:inline-block; vertical-align:middle;height:4.4rem; line-height:4.4rem; text-align:center; font-size:1.8rem; border-radius:.8rem; text-decoration:none;}
 
-.btn_orange{background:#ff7f00; color:#fff;}
+.btn_orange{background:#ff9523; color:#fff;}
 .btn_purple{ background:#fc765e; color:#fff;}
 .btn_border_purple{ border:1px solid #fc765e; color:#fc765e; background:#fff;}
 .btn_blue{background:#009fe2; color:#fff;}
