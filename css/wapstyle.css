@@ -82,7 +82,7 @@
 .income .border_l{ border-left:1px solid #f0f0f0;}
 .income .border_b{ border-bottom:1px solid #f0f0f0;}
 .income .fl,.income .fr{ padding:10px 30px;line-height:25px; }
-.income .fs_18{ color:#333; font-weight:bold; font-size:20px;}
+.income .fs_18{ color:#666; font-weight:bold; font-size:20px;}
 .income h4{ color:#909090;}
 .cash_count { background:#ff9523;
 	color: #fff; text-align:center; padding:40px 0;
